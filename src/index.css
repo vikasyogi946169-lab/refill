@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color-scheme: dark;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+/* Markdown prose enhancements */
+.prose-assistant h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #f1f5f9;
+}
+.prose-assistant h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #f1f5f9;
+}
+.prose-assistant h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #e2e8f0;
+}
+.prose-assistant p {
+  margin-bottom: 0.85rem;
+  line-height: 1.65;
+}
+.prose-assistant ul, .prose-assistant ol {
+  margin-bottom: 0.85rem;
+  padding-left: 1.5rem;
+}
+.prose-assistant ul {
+  list-style-type: disc;
+}
+.prose-assistant ol {
+  list-style-type: decimal;
+}
+.prose-assistant li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.prose-assistant strong {
+  font-weight: 600;
+  color: #f8fafc;
+}
+.prose-assistant em {
+  font-style: italic;
+  color: #cbd5e1;
+}
+.prose-assistant blockquote {
+  border-left: 3px solid #6366f1;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #94a3b8;
+  font-style: italic;
+}
+.prose-assistant table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
+.prose-assistant th, .prose-assistant td {
+  border: 1px solid #334155;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.prose-assistant th {
+  background-color: rgba(30, 41, 59, 0.7);
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.prose-assistant hr {
+  border-color: #334155;
+  margin: 1.5rem 0;
+}
+

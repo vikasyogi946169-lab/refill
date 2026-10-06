@@ -1,0 +1,6 @@
+{
+  "name": "DevPulse AI - Friendly Personal Assistant & Developer Studio",
+  "description": "An intelligent, friendly personal assistant and developer studio like ChatGPT, capable of crafting clean code, live previewing web apps, debugging, task management, and daily productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
